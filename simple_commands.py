@@ -55,22 +55,6 @@ def help_handler(update: Update, context: CallbackContext):
                parse_mode=ParseMode.HTML, disable_web_page_preview=True)
 
 
- 
-@user_locale
-def botrestart(update: Update, context: CallbackContext):
-    if update.message.from_user.id == ADMIN:
-        send_async(context.bot, update.message.chat_id,
-               text=_("Окей, перезапустил."),
-               disable_web_page_preview=True)
-        subprocess.Popen('botrestart.bat') #скрипт.
-    else:
-        send_async(context.bot, update.message.chat_id,
-               text=_("И на что ты надеялся?.."),
-               disable_web_page_preview=True)
-
-
-
-
 
 @user_locale
 def modes(update: Update, context: CallbackContext):

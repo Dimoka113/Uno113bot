@@ -1,2 +1,0 @@
-start reload.lnk
-exit
