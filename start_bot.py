@@ -23,15 +23,9 @@ from telegram.ext import Updater
 import subprocess
 
 def start_bot(updater: Updater):
-    try:
-        updater.start_polling(drop_pending_updates=False)
-    except:
-        subprocess.call(r"C:\Users\Dimoka113\Desktop\Open113\script\error\error.bat")
+    updater.start_polling(drop_pending_updates=False)
 
 
 
 def start_botskip(updater):
-    try:
-        updater.start_polling(drop_pending_updates=True)
-    except:
-        subprocess.call(r"C:\Users\Dimoka113\Desktop\Open113\script\error\error.bat")
+    updater.start_polling(drop_pending_updates=True)
