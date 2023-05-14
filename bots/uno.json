@@ -1,0 +1,15 @@
+{
+    "token": "bot_id:hash",
+    "bot_id": bot_id,
+    "admin_list": [],
+    "open_lobby": true,
+    "enable_translations": false,
+    "workers": 32,
+    "default_gamemode": "text",
+    "default_colormode": "white",
+    "default_flipcolormode": "white",
+    "waiting_time": 120,
+    "time_removal_after_skip": 20,
+    "min_fast_turn_time": 15,
+    "min_players": 2
+}
