@@ -263,9 +263,10 @@ def kick_player(update: Update, context: CallbackContext):
 
         if update.message.reply_to_message:
             kicked = update.message.reply_to_message.from_user
-
-            if kicked == config.BOT_ID:
-                gm.leave_game(game.current_player.user.id, chat)
+            kicked_id = int(kicked.id)
+            
+            if kicked_id == config.BOT_ID:
+                gm.leave_game(game.current_player.user, chat)
 
             else:
                 try:
