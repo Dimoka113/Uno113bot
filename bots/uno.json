@@ -1,6 +1,6 @@
 {
-    "token": "bot_id:hash",
-    "bot_id": bot_id,
+    "token": "0:hash",
+    "bot_id": 0,
     "admin_list": [],
     "open_lobby": true,
     "enable_translations": false,
