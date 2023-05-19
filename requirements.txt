@@ -1,3 +1,2 @@
 python-telegram-bot==13.11
-python-locales
 pony

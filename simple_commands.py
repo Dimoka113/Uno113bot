@@ -97,7 +97,7 @@ def source(update: Update, context: CallbackContext):
     """Handler for the /help command"""
     source_text = _('Этот бот является копией бесплатного программного обеспечения. И находится под лицензией "<b>AGPL</b>".\n'
       "<b>Оригинальный код доступен здесь:</b> \n"
-      "https://github.com/jh0ker/mau_mau_bot")
+      "https://github.com/Dimoka113/Uno113bot")
     attributions = _("Атрибуции:\n"
       '"<b>Draw" значок от:</b> '
       '<a href="http://www.faithtoken.com/">Faithtoken</a>\n'
