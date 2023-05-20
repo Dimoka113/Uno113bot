@@ -66,7 +66,11 @@ def kb_select(update: Update, context: CallbackContext):
             return
 
 
-    us.stats = True
+    try:
+        us.stats = True
+    except:
+        us = UserSetting(id=user.id)
+        us.stats = True
     send_async(context.bot, chat.id, text=_("Статистика включена!"))
 
 
