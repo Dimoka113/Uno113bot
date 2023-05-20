@@ -1053,10 +1053,10 @@ def process_result(update: Update, context: CallbackContext):
             do_play_card_flip(context.bot, player, result_id)
 
     if game.mode in RANDOM_MODES:
-        if game.last_card.special == c.DRAW_FOUR:
+        if game.last_card.special in [c.CHOOSE, c.DRAW_FOUR, c.FLIP_CARD]:
             pass
         
-        elif game.last_card.special == cb.DRAW_FOUR:
+        elif game.last_card.special in [cb.CHOOSE, cb.DRAW_FOUR, cb.FLIP_CARD]:
             pass
         
         else:
