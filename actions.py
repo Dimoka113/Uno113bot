@@ -232,7 +232,7 @@ def do_play_card_flip(bot, player, result_id):
 
     if len(player.cards) == 0:
         send_async(bot, chat.id,
-                   text=__("{name} выйграл!", multi=game.translate)
+                   text=__("{name} выиграл!", multi=game.translate)
                    .format(name=user.first_name))
 
         if us.stats:
