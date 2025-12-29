@@ -1,6 +1,6 @@
 # UNO Bot
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](./LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](./LICENSE)
 
 It's hard to say whose fork this is now... just know that the original bot works here: [@unobot](http://telegram.me/unobot).
 
